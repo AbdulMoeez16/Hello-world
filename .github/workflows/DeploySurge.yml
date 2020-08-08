@@ -38,6 +38,6 @@ jobs:
         
     # Deploy App to Surge
     - name: Deploying project to surge    
-      run: surge ./ daily-fire.surge.sh --token $ {{secrets.surge_token}}  
+      run: surge ./ daily-fire.surge.sh --token $ {{secrets.SURGE_TOKEN}}  
         
         
